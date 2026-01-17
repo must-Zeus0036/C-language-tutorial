@@ -17,14 +17,6 @@ int main(void){
     do {
         printf("Enter your guess: ");
 
-        if (scanf("%d", &guess) !=1){
-            printf("Invalid input! Pleae enter a number.\n");
-            while (getchar() != '\n');
-            continue; //restart the loop
-            
-            
-        }
-
         attempts++;
 
         if(guess < random_num) {
