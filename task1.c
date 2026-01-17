@@ -2,7 +2,8 @@
 
 int main(void){
 
-    float c, f;
+    float c;
+    float f;
 
     printf("Enter a Celsius temp: ");
 
